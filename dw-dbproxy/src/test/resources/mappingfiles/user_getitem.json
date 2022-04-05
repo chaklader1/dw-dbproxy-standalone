@@ -1,0 +1,20 @@
+{
+  "TableName": "User",
+  "Action": "GetItem",
+  "GRPCMapper": [
+    {
+      "ServiceName": "getUser",
+      "ClassName": "com.drivewealth.cr.grpc.server.UserRequest",
+      "ProtoType": "User",
+      "ImplementedClass": "com.drivewealth.cr.grpc.server.UserProtoService"
+    }
+  ],
+  "DDBGRPCMapper": [
+    {
+      "ServiceName": "dynamoRequest",
+      "ClassName": "java.lang.String",
+      "ImplementedClass": "com.drivewealth.proto.DynamoWrapper",
+      "MethodType": "Static"
+    }
+  ]
+}

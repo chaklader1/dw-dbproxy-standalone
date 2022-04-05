@@ -1,0 +1,25 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.drivewealth.cr.grpc.server;
+
+message AccountRequest {
+  string id = 1;
+  string accountID = 2;
+  string accountNo = 3;
+  string commissionID = 4;
+  string currencyID = 5;
+  int32 accountType = 6;
+  double cash = 7;
+  bool disableSubscriptions = 8;
+}
+
+message AccountResponse {
+  int32 response = 1;
+}
+
+service AccountService {
+  rpc saveAccount(AccountRequest) returns (AccountResponse);
+  rpc getAccount(AccountRequest) returns (AccountRequest);
+  rpc deleteAccount(AccountRequest) returns (AccountResponse);
+  rpc updateAccount(AccountRequest) returns (AccountResponse);
+}

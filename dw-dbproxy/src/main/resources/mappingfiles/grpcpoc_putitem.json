@@ -1,0 +1,12 @@
+{
+    "TableName": "GrpcPoc",
+    "Action": "PutItem",
+    "GRPCMapper": [
+        {
+            "ServiceName": "add",
+            "ClassName": "com.dw.acatsdomain.grpc.GrpcPocServiceOuterClass",
+            "ProtoType": "GrpcPoc",
+            "ImplementedClass": "com.drivewealth.cr.grpc.server.GrpcProtoService"
+        }
+    ]
+}

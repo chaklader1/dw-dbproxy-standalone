@@ -1,0 +1,17 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.drivewealth.grpc.server;
+
+message DBRequest {
+  string dbRequest = 1;
+  string dbAction = 2;
+}
+
+message DBResponse {
+  string dbResponse = 1;
+  string dbId = 2;
+}
+
+service DynamoService {
+  rpc dynamoRequest(DBRequest) returns (DBResponse);
+}

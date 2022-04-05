@@ -1,0 +1,39 @@
+
+
+logging:
+    file: logs/application-debug.log
+    level:
+        com:
+            drivewealth:
+                dbproxy: DEBUG
+        org:
+            springframework:
+                web: ERROR
+    pattern:
+        console: '%d %-5level %logger : %msg%n'
+        file: '%d %-5level [%thread] %logger : %msg%n'
+server:
+    port: 9095
+
+
+db:
+    flag: ACTIVE_PASSIVE
+    service: SYNCHRONOUS
+    dynamo:
+        grpc:
+            server: 'localhost:9090'
+    cr:
+        grpc:
+            server: 'localhost:9292'
+
+aws:
+    dynamodb:
+        secretKey: secretKey
+        accessKey: accessKey
+        endpoint: http://localhost:8000/
+    region: us-east-2
+
+
+
+
+

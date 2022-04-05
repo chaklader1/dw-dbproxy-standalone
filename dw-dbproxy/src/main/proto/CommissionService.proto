@@ -1,0 +1,29 @@
+syntax = "proto3";
+option java_multiple_files = true;
+import "google/protobuf/empty.proto";
+package com.drivewealth.cr.grpc.server;
+
+message CommissionRequest {
+  string commissionID = 1;
+  string userID = 2;
+  string commissionGroupID = 3;
+  double commissionRate = 4;
+}
+message CommissionResponse {
+  int32 response = 1;
+}
+message CommissionResponses {
+  repeated CommissionRequest listCommissionResponse=1;
+}
+message EmptyCommissionRequest {}
+
+service CommissionService {
+
+  rpc saveCommission(CommissionRequest) returns (CommissionResponse);
+  rpc getCommission(CommissionRequest) returns (CommissionRequest);
+  rpc deleteCommission(CommissionRequest) returns (CommissionResponse);
+  rpc updateCommission(CommissionRequest) returns (CommissionResponse);
+  rpc selectCommissionByUserID(CommissionRequest) returns (CommissionResponses);
+  rpc findAll(google.protobuf.Empty) returns (CommissionResponses);
+
+}

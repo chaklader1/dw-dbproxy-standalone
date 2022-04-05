@@ -1,0 +1,34 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.drivewealth.cr.grpc.server;
+
+message AddressRequest {
+  string addressID = 1;
+  string userID = 2;
+  string addressLine1 = 3;
+  string addressLine2 = 4;
+  string city = 5;
+  string countryID = 6;
+  string createdWhen = 7;
+  string employerCity = 8;
+  string employerCompany = 9;
+  string employerCountryID = 10;
+  string jointAddressLine1 = 11;
+  string jointAddressLine2 = 12;
+  string jointCitizenship = 13;
+  string jointCity = 14;
+  string jointCountryID = 15;
+  string zipPostalCode = 16;
+
+}
+
+message AddressResponse {
+  int32 response = 1;
+}
+
+service AddressService {
+  rpc saveAddress(AddressRequest) returns (AddressResponse);
+  rpc getAddress(AddressRequest) returns (AddressRequest);
+  rpc deleteAddress(AddressRequest) returns (AddressResponse);
+  rpc updateAddress(AddressRequest) returns (AddressResponse);
+}

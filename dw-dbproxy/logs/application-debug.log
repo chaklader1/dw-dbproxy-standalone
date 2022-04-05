@@ -1,0 +1,759 @@
+2022-04-05 12:30:14,483 WARN  [main] org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chaklader/.m2/repository/org/json/json/20211205/json-20211205.jar!/org/json/JSONObject.class
+	jar:file:/Users/chaklader/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-04-05 12:30:14,525 INFO  [main] com.drivewealth.service.DynamoDbPersistenceManagerMockedTest : Starting DynamoDbPersistenceManagerMockedTest on Chakladers-Mac-mini.local with PID 76749 (started by chaklader in /Users/chaklader/IdeaProjects/dw-dbproxy-standalone/dw-dbproxy)
+2022-04-05 12:30:14,537 INFO  [main] com.drivewealth.service.DynamoDbPersistenceManagerMockedTest : No active profile set, falling back to default profiles: default
+2022-04-05 12:30:19,141 INFO  [main] net.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle : gRPC Server started, listening on address: *, port: 9090
+2022-04-05 12:30:19,156 INFO  [main] com.drivewealth.service.DynamoDbPersistenceManagerMockedTest : Started DynamoDbPersistenceManagerMockedTest in 5.128 seconds (JVM running for 6.775)
+2022-04-05 12:30:20,596 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:20,686 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:20,745 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:20,764 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:20,789 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:20,795 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:20,814 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:20,819 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:20,836 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:20,839 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:20,857 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:20,862 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:20,900 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:20,924 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:20,963 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:20,965 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:20,983 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:20,986 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:20,994 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:20,995 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:21,003 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:21,005 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are testing if the Account table is created properly
+2022-04-05 12:30:21,106 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:21,127 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:21,127 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are testing if the User table is created properly
+2022-04-05 12:30:21,146 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:21,153 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:21,156 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:21,163 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:21,165 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:21,172 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:21,174 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:21,181 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:21,184 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:21,192 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:21,194 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:21,199 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:21,201 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:21,207 INFO  [main] com.drivewealth.setup.MockedTestSetup : This is running after ALL (@AfterClass) to tear down everything
+2022-04-05 12:30:21,229 INFO  [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.drivewealth.service.DBProxyServiceTest], using SpringBootContextLoader
+2022-04-05 12:30:21,239 INFO  [main] org.springframework.test.context.support.AbstractContextLoader : Could not detect default resource locations for test class [com.drivewealth.service.DBProxyServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-04-05 12:30:21,262 INFO  [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2022-04-05 12:30:21,266 INFO  [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e4bccc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2487b621, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3d2ff73a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@736a8aea, org.springframework.test.context.support.DirtiesContextTestExecutionListener@504b4a97, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4964d801, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@b307030, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2caa9666, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@263f6e96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@49741e80]
+2022-04-05 12:30:21,284 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : This is running before ALL (@BeforeClass) to complete the setup
+2022-04-05 12:30:21,493 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Wea re creating the DynamoDB client for using with local server
+2022-04-05 12:30:21,813 INFO  [qtp66348462-50] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:30:21,814 INFO  [qtp66348462-50] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: CreateTable
+2022-04-05 12:30:22,477 INFO  [qtp66348462-50] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=71e378eed6bec9046c6dfc9b74ef82f900eeb14f7f9294780909e6b4f846bdb9
+header name: X-Amz-Date : value: 20220405T063021Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 4c956f92-b4be-9a6b-ce2c-653af740ac53
+header name: amz-sdk-request : value: attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 221
+header name: X-Amz-Target : value: DynamoDB_20120810.CreateTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"ProvisionedThroughput":{"ReadCapacityUnits":1,"WriteCapacityUnits":1}}
+
+2022-04-05 12:30:22,480 INFO  [qtp66348462-50] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: eb10e031-cb0e-4dd7-b762-a2f86dd571c4
+header name: x-amz-crc32 : value: 3205072686
+header name: Date : value: Tue, 05 Apr 2022 06:30:21 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140222.396,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/User"}}
+
+2022-04-05 12:30:22,503 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Created table User
+2022-04-05 12:30:22,514 INFO  [qtp66348462-44] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:30:22,515 INFO  [qtp66348462-44] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DescribeTable
+2022-04-05 12:30:22,539 INFO  [qtp66348462-44] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=94d9f49da9724a18a31859e008cd7b89d2d148b12826bfda44547074a99c6343
+header name: X-Amz-Date : value: 20220405T063022Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 2841756c-b7d5-5c89-97b7-5e771a85e4e9
+header name: amz-sdk-request : value: ttl=20220405T063111Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 20
+header name: X-Amz-Target : value: DynamoDB_20120810.DescribeTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"User"}
+
+2022-04-05 12:30:22,539 INFO  [qtp66348462-44] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: ce67c033-a578-45a2-a89b-011073a2ef8a
+header name: x-amz-crc32 : value: 451897117
+header name: Date : value: Tue, 05 Apr 2022 06:30:22 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"Table":{"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140222.396,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/User"}}
+
+2022-04-05 12:30:22,542 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Table User is active
+2022-04-05 12:30:22,553 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:30:22,553 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: CreateTable
+2022-04-05 12:30:22,560 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=83b09c5d8979924b2e42b55e11d634338600bd00d0c55af22071d39fa2142d31
+header name: X-Amz-Date : value: 20220405T063022Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 03462b15-d40b-d1d2-9620-2559694f083d
+header name: amz-sdk-request : value: ttl=20220405T063112Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 216
+header name: X-Amz-Target : value: DynamoDB_20120810.CreateTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"ProvisionedThroughput":{"ReadCapacityUnits":1,"WriteCapacityUnits":1}}
+
+2022-04-05 12:30:22,561 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 1d6b9efe-3958-41e9-8af9-d76d69e9a6ac
+header name: x-amz-crc32 : value: 922905170
+header name: Date : value: Tue, 05 Apr 2022 06:30:22 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140222.557,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/Account"}}
+
+2022-04-05 12:30:22,565 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Created table Account
+2022-04-05 12:30:22,573 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:30:22,574 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DescribeTable
+2022-04-05 12:30:22,580 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=36202081f0a29c1c29332b46d4f696a3cf6195f72290d07d01e30fbc26da72aa
+header name: X-Amz-Date : value: 20220405T063022Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 86b21bbf-ebbf-6af4-352f-4059ebd99160
+header name: amz-sdk-request : value: ttl=20220405T063112Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 23
+header name: X-Amz-Target : value: DynamoDB_20120810.DescribeTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"Account"}
+
+2022-04-05 12:30:22,581 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 6fd42654-c199-42de-a5f7-9a74c3ef5270
+header name: x-amz-crc32 : value: 27814803
+header name: Date : value: Tue, 05 Apr 2022 06:30:22 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"Table":{"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140222.557,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/Account"}}
+
+2022-04-05 12:30:22,582 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Table Account is active
+2022-04-05 12:30:22,684 WARN  [main] org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chaklader/.m2/repository/org/json/json/20211205/json-20211205.jar!/org/json/JSONObject.class
+	jar:file:/Users/chaklader/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-04-05 12:30:22,690 INFO  [main] com.drivewealth.service.DBProxyServiceTest : Starting DBProxyServiceTest on Chakladers-Mac-mini.local with PID 76749 (started by chaklader in /Users/chaklader/IdeaProjects/dw-dbproxy-standalone/dw-dbproxy)
+2022-04-05 12:30:22,692 INFO  [main] com.drivewealth.service.DBProxyServiceTest : No active profile set, falling back to default profiles: default
+2022-04-05 12:30:23,124 INFO  [main] com.drivewealth.service.DBProxyServiceTest : Started DBProxyServiceTest in 0.527 seconds (JVM running for 10.743)
+2022-04-05 12:30:23,145 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:30:23,146 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:30:23,148 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : This is running after ALL (@AfterClass) to tear down everything
+2022-04-05 12:30:23,160 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:30:23,160 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: ListTables
+2022-04-05 12:30:23,171 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=b33715941dc003581b6eced11ce84a4d63e94040d78559d421cd9e1292303ca2
+header name: X-Amz-Date : value: 20220405T063023Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 6f0295b1-50e5-d9bc-9152-03bec718e9b6
+header name: amz-sdk-request : value: ttl=20220405T063113Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 2
+header name: X-Amz-Target : value: DynamoDB_20120810.ListTables
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=b33715941dc003581b6eced11ce84a4d63e94040d78559d421cd9e1292303ca2
+header name: X-Amz-Date : value: 20220405T063023Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 6f0295b1-50e5-d9bc-9152-03bec718e9b6
+header name: amz-sdk-request : value: ttl=20220405T063113Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 2
+header name: X-Amz-Target : value: DynamoDB_20120810.ListTables
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {}
+
+
+2022-04-05 12:30:23,172 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: a1843dfc-3912-4799-950b-87982565cfe5
+header name: x-amz-crc32 : value: 1088437552
+header name: Date : value: Tue, 05 Apr 2022 06:30:23 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableNames":["Account","User"]}
+
+2022-04-05 12:30:23,174 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : 
+
+2022-04-05 12:30:23,175 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : We will delete the tables : Account | User
+2022-04-05 12:30:23,175 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : 
+
+2022-04-05 12:30:23,184 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:30:23,184 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DeleteTable
+2022-04-05 12:30:23,200 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=e8fc3d8c7bd787c2cb4b9d840942565edb5550237b76a964858ef25c97daab5f
+header name: X-Amz-Date : value: 20220405T063023Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 8eaf5f45-b6da-bbc9-a979-f83f063c74c9
+header name: amz-sdk-request : value: ttl=20220405T063113Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 23
+header name: X-Amz-Target : value: DynamoDB_20120810.DeleteTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"Account"}
+
+2022-04-05 12:30:23,201 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: e185f9cf-c69e-4793-ba51-a95e2e788264
+header name: x-amz-crc32 : value: 922905170
+header name: Date : value: Tue, 05 Apr 2022 06:30:23 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140222.557,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/Account"}}
+
+2022-04-05 12:30:23,203 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Deleted the table wih name : Account
+2022-04-05 12:30:23,211 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:30:23,211 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DeleteTable
+2022-04-05 12:30:23,215 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=dd6c804409d75279cc626a66b3b7c22f6167f9f6fd901a9051d64c0f81a1b2fb
+header name: X-Amz-Date : value: 20220405T063023Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: ca4e3839-9650-bc82-7639-87e94f6a0559
+header name: amz-sdk-request : value: ttl=20220405T063113Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 20
+header name: X-Amz-Target : value: DynamoDB_20120810.DeleteTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"User"}
+
+2022-04-05 12:30:23,216 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 76a6b260-ef80-4611-99c0-d61392819b7c
+header name: x-amz-crc32 : value: 3205072686
+header name: Date : value: Tue, 05 Apr 2022 06:30:23 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140222.396,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/User"}}
+
+2022-04-05 12:30:23,218 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Deleted the table wih name : User
+2022-04-05 12:30:23,218 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Tables are deleted successfully
+2022-04-05 12:30:23,229 INFO  [main] com.amazonaws.services.dynamodbv2.local.shared.access.LocalDBClient : Shutting down
+2022-04-05 12:30:23,254 INFO  [Thread-10] net.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle : gRPC server shutdown.
+2022-04-05 12:34:04,909 WARN  [main] org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chaklader/.m2/repository/org/json/json/20211205/json-20211205.jar!/org/json/JSONObject.class
+	jar:file:/Users/chaklader/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-04-05 12:34:04,928 INFO  [main] com.drivewealth.service.DynamoDbPersistenceManagerMockedTest : Starting DynamoDbPersistenceManagerMockedTest on Chakladers-Mac-mini.local with PID 76983 (started by chaklader in /Users/chaklader/IdeaProjects/dw-dbproxy-standalone/dw-dbproxy)
+2022-04-05 12:34:04,929 INFO  [main] com.drivewealth.service.DynamoDbPersistenceManagerMockedTest : No active profile set, falling back to default profiles: default
+2022-04-05 12:34:09,438 INFO  [main] net.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle : gRPC Server started, listening on address: *, port: 9090
+2022-04-05 12:34:09,450 INFO  [main] com.drivewealth.service.DynamoDbPersistenceManagerMockedTest : Started DynamoDbPersistenceManagerMockedTest in 4.97 seconds (JVM running for 6.534)
+2022-04-05 12:34:10,893 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:10,992 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,048 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,055 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,075 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,080 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,095 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,101 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,125 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,128 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,141 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,148 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,165 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,173 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,187 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,188 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,212 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,216 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,223 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,223 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,235 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,236 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are testing if the Account table is created properly
+2022-04-05 12:34:11,323 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,333 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,334 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are testing if the User table is created properly
+2022-04-05 12:34:11,362 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,370 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,373 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,381 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,383 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,395 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,398 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,408 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,410 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,419 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,420 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,425 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:11,428 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:11,431 INFO  [main] com.drivewealth.setup.MockedTestSetup : This is running after ALL (@AfterClass) to tear down everything
+2022-04-05 12:34:11,447 INFO  [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.drivewealth.service.DBProxyServiceTest], using SpringBootContextLoader
+2022-04-05 12:34:11,454 INFO  [main] org.springframework.test.context.support.AbstractContextLoader : Could not detect default resource locations for test class [com.drivewealth.service.DBProxyServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-04-05 12:34:11,473 INFO  [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2022-04-05 12:34:11,476 INFO  [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6e4bccc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2487b621, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3d2ff73a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@736a8aea, org.springframework.test.context.support.DirtiesContextTestExecutionListener@504b4a97, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4964d801, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@b307030, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2caa9666, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@263f6e96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@49741e80]
+2022-04-05 12:34:11,477 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : This is running before ALL (@BeforeClass) to complete the setup
+2022-04-05 12:34:11,662 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Wea re creating the DynamoDB client for using with local server
+2022-04-05 12:34:11,934 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:34:11,945 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: CreateTable
+2022-04-05 12:34:12,195 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=a0f69fb721b2fda9c67b2aeeaa9123d54a0043c4098a17e2c5e7ac27793216a3
+header name: X-Amz-Date : value: 20220405T063411Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 62c05ef4-0811-d8eb-5d85-86d8014b54cb
+header name: amz-sdk-request : value: attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 221
+header name: X-Amz-Target : value: DynamoDB_20120810.CreateTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"ProvisionedThroughput":{"ReadCapacityUnits":1,"WriteCapacityUnits":1}}
+
+2022-04-05 12:34:12,198 INFO  [qtp66348462-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 890b37dc-ea4f-4ea1-bda7-c1e9b58cef7e
+header name: x-amz-crc32 : value: 2273318402
+header name: Date : value: Tue, 05 Apr 2022 06:34:11 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140452.106,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/User"}}
+
+2022-04-05 12:34:12,224 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Created table User
+2022-04-05 12:34:12,239 INFO  [qtp66348462-43] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:34:12,239 INFO  [qtp66348462-43] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DescribeTable
+2022-04-05 12:34:12,259 INFO  [qtp66348462-43] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=301ecd928ed512451668182e01f6332cde24002a840faa38c86de55be3ce2ac3
+header name: X-Amz-Date : value: 20220405T063412Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: f1a4a05b-1ee5-6387-6418-62965440ea9c
+header name: amz-sdk-request : value: ttl=20220405T063501Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 20
+header name: X-Amz-Target : value: DynamoDB_20120810.DescribeTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"User"}
+
+2022-04-05 12:34:12,260 INFO  [qtp66348462-43] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 5cbe2416-2739-4539-a0d6-8a918737e0f4
+header name: x-amz-crc32 : value: 577173041
+header name: Date : value: Tue, 05 Apr 2022 06:34:12 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"Table":{"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140452.106,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/User"}}
+
+2022-04-05 12:34:12,262 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Table User is active
+2022-04-05 12:34:12,273 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:34:12,274 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: CreateTable
+2022-04-05 12:34:12,280 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=b04acc8b86a943297a617707bbbdab8a8585907292260b753f0efef4117197c8
+header name: X-Amz-Date : value: 20220405T063412Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 965bccfd-2dbf-13df-3e4c-9a7f7b5c088e
+header name: amz-sdk-request : value: ttl=20220405T063502Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 216
+header name: X-Amz-Target : value: DynamoDB_20120810.CreateTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"ProvisionedThroughput":{"ReadCapacityUnits":1,"WriteCapacityUnits":1}}
+
+2022-04-05 12:34:12,281 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 8bf6b3ac-dfae-453e-9177-f13ba1ff599f
+header name: x-amz-crc32 : value: 1741868445
+header name: Date : value: Tue, 05 Apr 2022 06:34:12 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140452.278,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/Account"}}
+
+2022-04-05 12:34:12,285 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Created table Account
+2022-04-05 12:34:12,292 INFO  [qtp66348462-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:34:12,292 INFO  [qtp66348462-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DescribeTable
+2022-04-05 12:34:12,298 INFO  [qtp66348462-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=09b7a6a77c389ff9e6ad8e7062ed354c467c1f21149102bb6ec2f2ba64348d30
+header name: X-Amz-Date : value: 20220405T063412Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 7ba7ca94-8660-5699-e1f4-40d84de437a0
+header name: amz-sdk-request : value: ttl=20220405T063502Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 23
+header name: X-Amz-Target : value: DynamoDB_20120810.DescribeTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"Account"}
+
+2022-04-05 12:34:12,299 INFO  [qtp66348462-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 4344b86f-2419-4424-b471-9e28b171c2f0
+header name: x-amz-crc32 : value: 1366871132
+header name: Date : value: Tue, 05 Apr 2022 06:34:12 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"Table":{"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140452.278,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/Account"}}
+
+2022-04-05 12:34:12,303 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Table Account is active
+2022-04-05 12:34:12,406 WARN  [main] org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chaklader/.m2/repository/org/json/json/20211205/json-20211205.jar!/org/json/JSONObject.class
+	jar:file:/Users/chaklader/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-04-05 12:34:12,413 INFO  [main] com.drivewealth.service.DBProxyServiceTest : Starting DBProxyServiceTest on Chakladers-Mac-mini.local with PID 76983 (started by chaklader in /Users/chaklader/IdeaProjects/dw-dbproxy-standalone/dw-dbproxy)
+2022-04-05 12:34:12,417 INFO  [main] com.drivewealth.service.DBProxyServiceTest : No active profile set, falling back to default profiles: default
+2022-04-05 12:34:12,818 INFO  [main] com.drivewealth.service.DBProxyServiceTest : Started DBProxyServiceTest in 0.501 seconds (JVM running for 9.902)
+2022-04-05 12:34:12,841 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:34:12,841 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:34:12,843 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : This is running after ALL (@AfterClass) to tear down everything
+2022-04-05 12:34:12,854 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:34:12,854 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: ListTables
+2022-04-05 12:34:12,867 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=6ab239b2b3f97eda58fd0880ee12a332f7fed4b66f5ae96a6b9490c58d8361f5
+header name: X-Amz-Date : value: 20220405T063412Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: fad6501c-4d19-d080-a5fe-941e3fc89168
+header name: amz-sdk-request : value: ttl=20220405T063502Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 2
+header name: X-Amz-Target : value: DynamoDB_20120810.ListTables
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=6ab239b2b3f97eda58fd0880ee12a332f7fed4b66f5ae96a6b9490c58d8361f5
+header name: X-Amz-Date : value: 20220405T063412Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: fad6501c-4d19-d080-a5fe-941e3fc89168
+header name: amz-sdk-request : value: ttl=20220405T063502Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 2
+header name: X-Amz-Target : value: DynamoDB_20120810.ListTables
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {}
+
+
+2022-04-05 12:34:12,867 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 30979eed-f4b8-49e3-9797-86b4193838cd
+header name: x-amz-crc32 : value: 1088437552
+header name: Date : value: Tue, 05 Apr 2022 06:34:12 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableNames":["Account","User"]}
+
+2022-04-05 12:34:12,869 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : 
+
+2022-04-05 12:34:12,869 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : We will delete the tables : Account | User
+2022-04-05 12:34:12,869 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : 
+
+2022-04-05 12:34:12,877 INFO  [qtp66348462-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:34:12,878 INFO  [qtp66348462-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DeleteTable
+2022-04-05 12:34:12,893 INFO  [qtp66348462-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=52573d79ffb5c9f4519eb14d57190e01e940194478a490895063b8d0696ae0a7
+header name: X-Amz-Date : value: 20220405T063412Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 1f3e554a-6d14-71bf-b8c5-e42631d8a86e
+header name: amz-sdk-request : value: ttl=20220405T063502Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 23
+header name: X-Amz-Target : value: DynamoDB_20120810.DeleteTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"Account"}
+
+2022-04-05 12:34:12,893 INFO  [qtp66348462-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 6c54106b-2483-4e7e-907f-f19dda1ed5fc
+header name: x-amz-crc32 : value: 1741868445
+header name: Date : value: Tue, 05 Apr 2022 06:34:12 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140452.278,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/Account"}}
+
+2022-04-05 12:34:12,896 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Deleted the table wih name : Account
+2022-04-05 12:34:12,904 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:34:12,904 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DeleteTable
+2022-04-05 12:34:12,907 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=ab6ca87a66af46ae3bf31b919a459c309e9257c9a9f08082a55809d3296ea693
+header name: X-Amz-Date : value: 20220405T063412Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 74a6765c-683c-084c-0174-25855e3321b6
+header name: amz-sdk-request : value: ttl=20220405T063502Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 20
+header name: X-Amz-Target : value: DynamoDB_20120810.DeleteTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"User"}
+
+2022-04-05 12:34:12,907 INFO  [qtp66348462-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 51f85a34-8ea0-4371-8506-f890a9e0bed0
+header name: x-amz-crc32 : value: 2273318402
+header name: Date : value: Tue, 05 Apr 2022 06:34:12 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140452.106,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/User"}}
+
+2022-04-05 12:34:12,908 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Deleted the table wih name : User
+2022-04-05 12:34:12,908 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Tables are deleted successfully
+2022-04-05 12:34:12,918 INFO  [main] com.amazonaws.services.dynamodbv2.local.shared.access.LocalDBClient : Shutting down
+2022-04-05 12:34:12,949 INFO  [Thread-10] net.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle : gRPC server shutdown.
+2022-04-05 12:39:48,646 WARN  [main] org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chaklader/.m2/repository/org/json/json/20211205/json-20211205.jar!/org/json/JSONObject.class
+	jar:file:/Users/chaklader/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-04-05 12:39:48,658 INFO  [main] com.drivewealth.service.DynamoDbPersistenceManagerMockedTest : Starting DynamoDbPersistenceManagerMockedTest on Chakladers-Mac-mini.local with PID 77303 (started by chaklader in /Users/chaklader/IdeaProjects/dw-dbproxy-standalone/dw-dbproxy)
+2022-04-05 12:39:48,660 INFO  [main] com.drivewealth.service.DynamoDbPersistenceManagerMockedTest : No active profile set, falling back to default profiles: default
+2022-04-05 12:39:53,162 INFO  [main] net.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle : gRPC Server started, listening on address: *, port: 9090
+2022-04-05 12:39:53,173 INFO  [main] com.drivewealth.service.DynamoDbPersistenceManagerMockedTest : Started DynamoDbPersistenceManagerMockedTest in 5.063 seconds (JVM running for 6.685)
+2022-04-05 12:39:54,615 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,715 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:54,774 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,790 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:54,815 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,820 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:54,838 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,842 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:54,862 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,864 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:54,876 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,880 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:54,895 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,900 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:54,909 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,910 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:54,930 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,934 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:54,956 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,957 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:54,969 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:54,970 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are testing if the Account table is created properly
+2022-04-05 12:39:55,072 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:55,104 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:55,104 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are testing if the User table is created properly
+2022-04-05 12:39:55,125 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:55,134 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:55,137 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:55,146 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:55,149 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:55,159 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:55,161 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:55,169 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:55,172 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:55,180 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:55,181 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:55,188 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:55,190 INFO  [main] com.drivewealth.setup.MockedTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:55,196 INFO  [main] com.drivewealth.setup.MockedTestSetup : This is running after ALL (@AfterClass) to tear down everything
+2022-04-05 12:39:55,215 INFO  [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.drivewealth.service.DBProxyServiceTest], using SpringBootContextLoader
+2022-04-05 12:39:55,221 INFO  [main] org.springframework.test.context.support.AbstractContextLoader : Could not detect default resource locations for test class [com.drivewealth.service.DBProxyServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-04-05 12:39:55,247 INFO  [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2022-04-05 12:39:55,250 INFO  [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7e35d743, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@63b2418e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@70d16858, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@789f5552, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28c00acd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@590f806a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2267b0bb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@20505460, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@8eeb4c5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2dc77962]
+2022-04-05 12:39:55,251 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : This is running before ALL (@BeforeClass) to complete the setup
+2022-04-05 12:39:55,470 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Wea re creating the DynamoDB client for using with local server
+2022-04-05 12:39:55,764 INFO  [qtp1686332995-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:39:55,765 INFO  [qtp1686332995-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: CreateTable
+2022-04-05 12:39:55,997 INFO  [qtp1686332995-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=09e101b19dfc1c42776d527260c5098f7fa93446b85044946b9486bd57a1e761
+header name: X-Amz-Date : value: 20220405T063955Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 74639326-9e4a-b70b-dbc5-53e2572593e6
+header name: amz-sdk-request : value: attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 221
+header name: X-Amz-Target : value: DynamoDB_20120810.CreateTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"ProvisionedThroughput":{"ReadCapacityUnits":1,"WriteCapacityUnits":1}}
+
+2022-04-05 12:39:56,003 INFO  [qtp1686332995-49] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 89d97179-fc51-49dd-b061-209afaae3b1e
+header name: x-amz-crc32 : value: 2997527817
+header name: Date : value: Tue, 05 Apr 2022 06:39:55 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140795.906,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/User"}}
+
+2022-04-05 12:39:56,049 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Created table User
+2022-04-05 12:39:56,064 INFO  [qtp1686332995-43] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:39:56,064 INFO  [qtp1686332995-43] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DescribeTable
+2022-04-05 12:39:56,082 INFO  [qtp1686332995-43] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=04637ac04a1048e11dfd3cfe762dd424c3cdcdf57a498453ffb958ead99cdb17
+header name: X-Amz-Date : value: 20220405T063956Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 780d0567-db28-21b7-59d3-259795aecce6
+header name: amz-sdk-request : value: ttl=20220405T064045Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 20
+header name: X-Amz-Target : value: DynamoDB_20120810.DescribeTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"User"}
+
+2022-04-05 12:39:56,083 INFO  [qtp1686332995-43] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: a30ce7dd-01e3-48f8-b80b-c334b62b05be
+header name: x-amz-crc32 : value: 390874426
+header name: Date : value: Tue, 05 Apr 2022 06:39:56 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"Table":{"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140795.906,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/User"}}
+
+2022-04-05 12:39:56,085 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Table User is active
+2022-04-05 12:39:56,094 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:39:56,094 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: CreateTable
+2022-04-05 12:39:56,101 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=aff865db5a979372a1308e87df0c905dc7b55e083f21d850cc03e7f696af7ac2
+header name: X-Amz-Date : value: 20220405T063956Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: f0b73c8e-ba87-843c-793d-ec25b65c08c7
+header name: amz-sdk-request : value: ttl=20220405T064046Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 216
+header name: X-Amz-Target : value: DynamoDB_20120810.CreateTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"ProvisionedThroughput":{"ReadCapacityUnits":1,"WriteCapacityUnits":1}}
+
+2022-04-05 12:39:56,101 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: edde8064-eca9-41ba-afc0-e15a4a351c63
+header name: x-amz-crc32 : value: 2677139730
+header name: Date : value: Tue, 05 Apr 2022 06:39:56 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140796.098,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/Account"}}
+
+2022-04-05 12:39:56,105 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Created table Account
+2022-04-05 12:39:56,111 INFO  [qtp1686332995-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:39:56,112 INFO  [qtp1686332995-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DescribeTable
+2022-04-05 12:39:56,118 INFO  [qtp1686332995-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=697b8d12cd38a71f2577451b44843ad9fb463277b56cf206380eb4e2242e615a
+header name: X-Amz-Date : value: 20220405T063956Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: ebac4256-5627-7737-d140-6d8bb6e5712d
+header name: amz-sdk-request : value: ttl=20220405T064046Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 23
+header name: X-Amz-Target : value: DynamoDB_20120810.DescribeTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"Account"}
+
+2022-04-05 12:39:56,118 INFO  [qtp1686332995-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 3e276e29-21b2-4d2e-bae1-554e36b1cbf7
+header name: x-amz-crc32 : value: 2839275731
+header name: Date : value: Tue, 05 Apr 2022 06:39:56 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"Table":{"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140796.098,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/Account"}}
+
+2022-04-05 12:39:56,123 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Table Account is active
+2022-04-05 12:39:56,225 WARN  [main] org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/chaklader/.m2/repository/org/json/json/20211205/json-20211205.jar!/org/json/JSONObject.class
+	jar:file:/Users/chaklader/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2022-04-05 12:39:56,234 INFO  [main] com.drivewealth.service.DBProxyServiceTest : Starting DBProxyServiceTest on Chakladers-Mac-mini.local with PID 77303 (started by chaklader in /Users/chaklader/IdeaProjects/dw-dbproxy-standalone/dw-dbproxy)
+2022-04-05 12:39:56,236 INFO  [main] com.drivewealth.service.DBProxyServiceTest : No active profile set, falling back to default profiles: default
+2022-04-05 12:39:56,637 INFO  [main] com.drivewealth.service.DBProxyServiceTest : Started DBProxyServiceTest in 0.498 seconds (JVM running for 10.149)
+2022-04-05 12:39:56,670 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : We are making the setup for every test to make it run
+2022-04-05 12:39:56,671 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : We are teardown the setup after every test so the next test will run smoothly.
+2022-04-05 12:39:56,673 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : This is running after ALL (@AfterClass) to tear down everything
+2022-04-05 12:39:56,684 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:39:56,685 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: ListTables
+2022-04-05 12:39:56,700 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=9cf3770deb77124dabab9809c3cf6526480676ad5c48a120c47893f3e858c160
+header name: X-Amz-Date : value: 20220405T063956Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 986add2b-6082-f714-dc4d-d5d2da065778
+header name: amz-sdk-request : value: ttl=20220405T064046Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 2
+header name: X-Amz-Target : value: DynamoDB_20120810.ListTables
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=9cf3770deb77124dabab9809c3cf6526480676ad5c48a120c47893f3e858c160
+header name: X-Amz-Date : value: 20220405T063956Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 986add2b-6082-f714-dc4d-d5d2da065778
+header name: amz-sdk-request : value: ttl=20220405T064046Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 2
+header name: X-Amz-Target : value: DynamoDB_20120810.ListTables
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {}
+
+
+2022-04-05 12:39:56,701 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 40fad94f-15b7-45d5-b0e4-b18d2a373cc2
+header name: x-amz-crc32 : value: 1088437552
+header name: Date : value: Tue, 05 Apr 2022 06:39:56 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableNames":["Account","User"]}
+
+2022-04-05 12:39:56,703 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : 
+
+2022-04-05 12:39:56,704 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : We will delete the tables : Account | User
+2022-04-05 12:39:56,704 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : 
+
+2022-04-05 12:39:56,711 INFO  [qtp1686332995-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:39:56,711 INFO  [qtp1686332995-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DeleteTable
+2022-04-05 12:39:56,727 INFO  [qtp1686332995-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=1543c1a2f35721df55362b175a71c09b660cc37d64130a0aa41cbd8a0e79a0b1
+header name: X-Amz-Date : value: 20220405T063956Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: 7f87e024-3d85-a6f9-d31b-0a1939898c49
+header name: amz-sdk-request : value: ttl=20220405T064046Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 23
+header name: X-Amz-Target : value: DynamoDB_20120810.DeleteTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"Account"}
+
+2022-04-05 12:39:56,728 INFO  [qtp1686332995-47] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 50f84f7e-7b57-432f-9a02-ec1266bb80b2
+header name: x-amz-crc32 : value: 2677139730
+header name: Date : value: Tue, 05 Apr 2022 06:39:56 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"id","AttributeType":"S"}],"TableName":"Account","KeySchema":[{"AttributeName":"id","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140796.098,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/Account"}}
+
+2022-04-05 12:39:56,730 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Deleted the table wih name : Account
+2022-04-05 12:39:56,737 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : accessKey: 	us-east-2
+2022-04-05 12:39:56,738 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : target: DeleteTable
+2022-04-05 12:39:56,741 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Request] header name: Authorization : value: AWS4-HMAC-SHA256 Credential=/20220405/us-east-2/dynamodb/aws4_request, SignedHeaders=amz-sdk-invocation-id;amz-sdk-request;amz-sdk-retry;content-length;content-type;host;user-agent;x-amz-date;x-amz-target, Signature=c9b986eccb290e0f5f40e95d8952966b0d83806dec057b1c6757bbf66bf2578e
+header name: X-Amz-Date : value: 20220405T063956Z
+header name: User-Agent : value: aws-sdk-java/1.12.131 Mac_OS_X/12.3 OpenJDK_64-Bit_Server_VM/17.0.1+12-39 java/17.0.1 vendor/Oracle_Corporation cfg/retry-mode/legacy
+header name: Connection : value: keep-alive
+header name: Host : value: localhost:8000
+header name: amz-sdk-invocation-id : value: ee40062f-0686-dde2-4181-98ec74452b45
+header name: amz-sdk-request : value: ttl=20220405T064046Z;attempt=1;max=11
+header name: amz-sdk-retry : value: 0/0/500
+header name: Content-Length : value: 20
+header name: X-Amz-Target : value: DynamoDB_20120810.DeleteTable
+header name: Content-Type : value: application/x-amz-json-1.0
+request body: {"TableName":"User"}
+
+2022-04-05 12:39:56,742 INFO  [qtp1686332995-48] com.amazonaws.services.dynamodbv2.local.server.LocalDynamoDBServerHandler : [Response] header name: x-amzn-RequestId : value: 04a69dac-e9ad-4492-bfb6-2c446cadab26
+header name: x-amz-crc32 : value: 2997527817
+header name: Date : value: Tue, 05 Apr 2022 06:39:56 GMT
+header name: Content-Type : value: application/x-amz-json-1.0
+status: 200
+response body: {"TableDescription":{"AttributeDefinitions":[{"AttributeName":"userID","AttributeType":"S"}],"TableName":"User","KeySchema":[{"AttributeName":"userID","KeyType":"HASH"}],"TableStatus":"ACTIVE","CreationDateTime":1649140795.906,"ProvisionedThroughput":{"LastIncreaseDateTime":0.000,"LastDecreaseDateTime":0.000,"NumberOfDecreasesToday":0,"ReadCapacityUnits":1,"WriteCapacityUnits":1},"TableSizeBytes":0,"ItemCount":0,"TableArn":"arn:aws:dynamodb:ddblocal:000000000000:table/User"}}
+
+2022-04-05 12:39:56,745 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Deleted the table wih name : User
+2022-04-05 12:39:56,745 INFO  [main] com.drivewealth.setup.IntegrationTestSetup : Tables are deleted successfully
+2022-04-05 12:39:56,755 INFO  [main] com.amazonaws.services.dynamodbv2.local.shared.access.LocalDBClient : Shutting down
+2022-04-05 12:39:56,784 INFO  [Thread-10] net.devh.boot.grpc.server.serverfactory.GrpcServerLifecycle : gRPC server shutdown.

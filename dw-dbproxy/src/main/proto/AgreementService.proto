@@ -1,0 +1,26 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.drivewealth.cr.grpc.server;
+
+message AgreementRequest {
+  string agreementID = 1;
+  string userID = 2;
+  int32 ackCustomerAgreement = 3;
+  bool ackDataSharing = 4;
+  string ackJointSignedBy = 5;
+  string ackJointSignedWhen = 6;
+  string ackMarginAgreementWhen = 7;
+  string ackSignedWhen = 8;
+
+}
+
+message AgreementResponse {
+  int32 response = 1;
+}
+
+service AgreementService {
+  rpc saveAgreement(AgreementRequest) returns (AgreementResponse);
+  rpc getAgreement(AgreementRequest) returns (AgreementRequest);
+  rpc deleteAgreement(AgreementRequest) returns (AgreementResponse);
+  rpc updateAgreement(AgreementRequest) returns (AgreementResponse);
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+option java_package = "com.dw.acatsdomain.grpc";
+package grpc;
+
+
+
+
+message GrpcPocDTO {
+    string id = 1;
+    string name = 2;
+    string contact = 3;
+    string createdAt = 4;
+
+}
+service GrpcPocService{
+
+    rpc add(grpc.GrpcPocDTO) returns (grpc.GrpcPocDTO);
+}
