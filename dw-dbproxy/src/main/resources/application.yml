@@ -39,8 +39,8 @@ db:
 
 aws:
     dynamodb:
-        accessKey: AKIAVKXTERO35NFOIT66
-        secretKey: 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
+        accessKey: 
+        secretKey: 
         endpoint: https://dynamodb.us-east-1.amazonaws.com
     region: us-east-1
 
