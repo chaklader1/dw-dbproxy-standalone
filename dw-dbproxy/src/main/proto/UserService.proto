@@ -1,0 +1,62 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.drivewealth.cr.grpc.server;
+
+message UserRequest {
+  string userID = 1;
+  int32 userType = 2;
+  string displayName = 3;
+  string avatarUrl = 4;
+  string dob = 5;
+  string emailAddress1 = 6;
+  string emailAddress2 = 7;
+  string firstName = 8;
+  string gender = 9;
+  string idNo = 10;
+  string idType = 11;
+  string jointFirstName = 12;
+  string jointGender = 13;
+  string jointLastName = 14;
+  string jointMaritalStatus = 15;
+  string jointZipPostalCode = 16;
+
+  string commissionID = 17;
+  string commissionGroupID = 18;
+  double commissionRate = 19;
+
+  string agreementID = 20;
+  int32 ackCustomerAgreement = 21;
+  bool ackDataSharing = 22;
+  string ackJointSignedBy = 23;
+  string ackJointSignedWhen = 24;
+  string ackMarginAgreementWhen = 25;
+  string ackSignedWhen = 26;
+
+  string addressID = 27;
+  string addressLine1 = 28;
+  string addressLine2 = 29;
+  string city = 30;
+  string countryID = 31;
+  string createdWhen = 32;
+  string employerCity = 33;
+  string employerCompany = 34;
+  string employerCountryID = 35;
+  string jointAddressLine1 = 36;
+  string jointAddressLine2 = 37;
+  string jointCitizenship = 38;
+  string jointCity = 39;
+  string jointCountryID = 40;
+  string zipPostalCode = 41;
+
+}
+
+message UserResponse {
+  int32 response = 1;
+}
+
+service UserService {
+  rpc saveUser(UserRequest) returns (UserResponse);
+  rpc getUser(UserRequest) returns (UserRequest);
+  rpc deleteUser(UserRequest) returns (UserResponse);
+  rpc updateUser(UserRequest) returns (UserResponse);
+}

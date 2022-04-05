@@ -1,0 +1,13 @@
+{
+  "DynamoDBTableName": "Account",
+  "DynamoDBAction": "PutItem",
+  "GRPCMapper": [
+    {
+      "ServiceName": "saveAccount",
+      "ClassName": "com.drivewealth.cr.grpc.server.AccountRequest",
+      "ProtoType": "Account",
+      "ImplementedClass": "com.drivewealth.cr.grpc.server.AccountProtoService"
+    }
+
+  ]
+}

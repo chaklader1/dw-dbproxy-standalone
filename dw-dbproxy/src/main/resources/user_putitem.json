@@ -1,0 +1,38 @@
+{
+  "DynamoDBTableName": "User",
+  "DynamoDBAction": "PutItem",
+  "GRPCMapper": [
+    {
+      "ServiceName": "saveUser",
+      "ClassName": "com.drivewealth.cr.grpc.server.User",
+      "ProtoType": "User",
+      "ImplementedClass": "com.drivewealth.cr.grpc.server.UserProtoService"
+    },
+    {
+      "ServiceName": "saveCommission",
+      "ClassName": "com.drivewealth.cr.grpc.server.CommissionRequest",
+      "ProtoType": "Commission",
+      "ImplementedClass": "com.drivewealth.cr.grpc.server.CommissionProtoService"
+    },
+    {
+      "ServiceName": "saveAddress",
+      "ClassName": "com.drivewealth.cr.grpc.server.AddressRequest",
+      "ProtoType": "Address",
+      "ImplementedClass": "com.drivewealth.cr.grpc.server.AddressProtoService"
+    },
+    {
+      "ServiceName": "saveAgreement",
+      "ClassName": "com.drivewealth.cr.grpc.server.AgreementRequest",
+      "ProtoType": "Agreement",
+      "ImplementedClass": "com.drivewealth.cr.grpc.server.AgreementProtoService"
+    }
+  ],
+  "DDBGRPCMapper": [
+    {
+      "ServiceName": "dynamoRequest",
+      "ClassName": "java.lang.String",
+      "ImplementedClass": "com.drivewealth.proto.DynamoWrapper",
+      "MethodType": "Static"
+    }
+  ]
+}

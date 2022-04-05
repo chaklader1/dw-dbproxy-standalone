@@ -1,0 +1,39 @@
+{
+  "DynamoDBTableName": "User",
+  "DynamoDBAction": "DeleteItem",
+  "GRPCMapper": [
+    {
+      "ServiceName": "deleteCommission",
+      "ClassName": "com.drivewealth.cr.grpc.server.CommissionRequest",
+      "ProtoType": "Commission",
+      "ImplementedClass": "com.drivewealth.cr.grpc.server.CommissionProtoService"
+    },
+    {
+      "ServiceName": "deleteAddress",
+      "ClassName": "com.drivewealth.cr.grpc.server.AddressRequest",
+      "ProtoType": "Address",
+      "ImplementedClass": "com.drivewealth.cr.grpc.server.AddressProtoService"
+    },
+    {
+      "ServiceName": "deleteAgreement",
+      "ClassName": "com.drivewealth.cr.grpc.server.AgreementRequest",
+      "ProtoType": "Agreement",
+      "ImplementedClass": "com.drivewealth.cr.grpc.server.AgreementProtoService"
+    },
+    {
+      "ServiceName": "deleteUser",
+      "ClassName": "com.drivewealth.cr.grpc.server.UserRequest",
+      "ProtoType": "User",
+      "ImplementedClass": "com.drivewealth.cr.grpc.server.UserProtoService"
+    }
+
+  ],
+  "DDBGRPCMapper": [
+    {
+      "ServiceName": "dynamoRequest",
+      "ClassName": "java.lang.String",
+      "ImplementedClass": "com.drivewealth.proto.DynamoWrapper",
+      "MethodType": "Static"
+    }
+  ]
+}

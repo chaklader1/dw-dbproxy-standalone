@@ -1,0 +1,47 @@
+logging:
+    file: logs/application-debug.log
+    level:
+        com:
+            drivewealth:
+                dbproxy: DEBUG
+        org:
+            springframework:
+                web: ERROR
+    pattern:
+        console: '%d %-5level %logger : %msg%n'
+        file: '%d %-5level [%thread] %logger : %msg%n'
+server:
+    port: 9095
+
+
+# Service Modes
+
+# ACTIVE_PASSIVE  (only DynamoDB)
+# ACTIVE_ACTIVE   (both DynamoDB and CockroachDB)
+# PASSIVE_ACTIVE  (only CockroachDB)
+
+
+# Local gRPC server: localhost:9292
+# Remote gRPC server: a0f0aa037544d4b7ca729d77a96f7cf3-1626158478.us-east-1.elb.amazonaws.com:3011
+
+
+
+auth:
+    token: 'Bearer eyJraWQiOiJqdFZUUjVKRlJhTGJzZnJYbjRIVU1JVnZtUW11dFNiTjBTZ1N6OUg3R0E0PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4NjA0NWYwYi05Njc0LTQyYzEtODdiMy1hYmI3M2JkMGNiZDkiLCJkZXZpY2Vfa2V5IjoidXMtZWFzdC0xXzQwYWMxYjI5LWJlYjktNDdkMS1iNDIwLTE3ZjY5YWVhZWQ0YyIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4iLCJhdXRoX3RpbWUiOjE2NDIwODA2NjEsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC51cy1lYXN0LTEuYW1hem9uYXdzLmNvbVwvdXMtZWFzdC0xX2wwcEMzMEpHMCIsImV4cCI6MTY0MjA4NDI2MSwiaWF0IjoxNjQyMDgwNjYxLCJqdGkiOiI1NjgyMzM5Zi1lYjE3LTQwMTAtOGE0OC0yODY2ZWFlM2U0N2QiLCJjbGllbnRfaWQiOiI0b3B2ZWgxZ2ZwYXQ1Z3Y4dGpoNDQzNGIxbSIsInVzZXJuYW1lIjoiam11cnVnYWl5YW5leHQifQ.OVqxgWx6te4e69Pdsbx4X2uaKoZfjl0WDUS7WZ1m-N41sa1ggiXghV5yaZblH_8bY1Xu7TCyx4uONEX6fne3MDJQ_LEBfSSzL3wyrDMqcIe4nyECq4Adb2ACgQJsLk_efWO178gLyOLbM8g1LHlglb0q983SIfoh4YDwoee5M_KVaNORXc3ihqbx8HmlwuIuL0wthaLx7YyuQ8HQC2DgVRfC0z2DRZJgIMEcFNa1cRHKByKzAY_NbnsCvHoLvqlPTjkmJiTS8Xi0gjQDtkLnhDbZwE5C2oSR4L60gvXce2rc87dr1LywCyWDBc9AxJh-1Zx_8I9XSv1-iO7ZZNZ8ZA'
+
+db:
+    flag: ACTIVE_PASSIVE
+    service: SYNCHRONOUS
+    cr:
+        grpc:
+            server: 'a0f0aa037544d4b7ca729d77a96f7cf3-1626158478.us-east-1.elb.amazonaws.com:3011'
+
+
+aws:
+    dynamodb:
+        accessKey: AKIAVKXTERO35NFOIT66
+        secretKey: 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
+        endpoint: https://dynamodb.us-east-1.amazonaws.com
+    region: us-east-1
+
+
